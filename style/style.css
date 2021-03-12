@@ -131,7 +131,7 @@ color: #6A707B;
 
 
 
-/* yes*/
+
 
 #input {
   position: absolute;
@@ -194,7 +194,7 @@ color: #6A707B;
 :focus {
   outline: none;
 }
-/*CheckBox*/
+
 
 
 
@@ -206,7 +206,7 @@ label {
 }
 .terms input[type="checkbox"] + label:before {
   border: 1px solid #333;
-  content: "\00a0";
+ 
   display: inline-block;
   font: 16px/1em sans-serif;
   height: 16px;
@@ -218,7 +218,7 @@ label {
 .terms input[type="checkbox"]:checked + label:before {
   background: #fff;
   color: #333;
-  content: "\2713";
+  
   text-align: center;
 }
 .terms input[type="checkbox"]:checked + label:after {
@@ -229,7 +229,7 @@ label {
     outline: rgb(59, 153, 252) auto 5px;
 }
 
-/*no*/
+
 
 #err {
     position: absolute;
@@ -277,13 +277,7 @@ border-width:0;
 
 
 }
-/*
- 
-cricle icons part 
 
-
-
-*/
 .icons{
     position: absolute;
     top: 80%;
@@ -529,7 +523,6 @@ body{
    
 
 
-   /*input field*/
 
    #input {
     position: absolute;
@@ -631,7 +624,6 @@ body{
     
     
 
-/*TERMS PART*/
       .terms{
         position: absolute;
         top: 60%;
@@ -675,7 +667,7 @@ body{
             
             }   
 
-/*ICONS*/
+
 
 .icons{
                 position: absolute;
