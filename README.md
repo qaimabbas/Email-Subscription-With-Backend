@@ -21,9 +21,9 @@ There should be no password of database.
 
 
 After the setup you can go in your browser and run this Link  http://localhost:8080/magetest/classes/index.php
-it will redirect you to main file.
+it will redirect you to main file.Where you can insert your email.
 For records inside database (backend) you can put this link in your browser http://localhost:8080/magetest/classes/showsubscriber.php
-
+Where you can check for records sort them by date and text. Or by email providers.You can delete the records as well.
 IT is also possible to host this website live for me on WWW  but it wil take some time if it will be easy for you let me know i can do that.
 
 
