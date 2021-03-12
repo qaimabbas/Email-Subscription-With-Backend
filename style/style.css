@@ -1,0 +1,707 @@
+html{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+    width: 100%;
+	overflow: hidden;
+}
+body{
+	display: flex;
+	height: 100%;
+    width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+    background-color: black;
+}
+.wrapper{
+     
+     display: flex;
+}
+.left{
+     width: 65%;
+     height: 100%;
+     background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+}
+.navbar{
+    position: absolute;
+    top: 5vh;
+    left:5vw;
+    width: 45%;
+    
+      
+} 
+.navbar .union{
+  margin-left: 1.5vw;
+  
+}
+
+.navbar ul{
+    
+    display: inline;
+}
+.navbar ul li{
+     
+     display: inline;
+     
+     
+
+}
+
+.navbar ul li a{
+    height: 26vh;
+    color: #6A707B;
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration: none;
+
+}
+.about{
+    
+    margin-left: 2vw;
+}
+.about:hover{
+  color:#4066A5;
+}
+.about:focus{
+  color: #233759;
+}
+.how{
+    
+    margin-left: 2vw;
+}
+.how:hover{
+  color:#4066A5;
+}
+.how:focus{
+  color: #233759;
+}
+.contact{
+    
+    margin-left: 2vw;
+    
+}
+.contact:hover{
+  color:#4066A5;
+}
+.contact:focus{
+  color: #233759;
+}
+.left h1{
+position: absolute; 
+top:33% ; 
+width: 70%;
+height: 44px;
+margin-left: 7vw;
+font-family: 'Newsreader', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1.6vw;
+line-height: 44px;
+color:#131821;
+}
+.left p {
+position: absolute;
+top: 37%;   
+width: 25%;
+height: 56px;
+margin-left: 7vw;
+font-family: 'Libre Baskerville', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1vw;
+line-height: 28px;
+color: #6A707B;
+}
+
+
+#sup{
+  position: absolute;
+  width: 6%;
+  height: 8%;
+  top:25%;
+  left:7%;
+   opacity: 0;
+}
+
+
+
+
+/* yes*/
+
+#input {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: 50%;
+  left: 5%;
+  
+}
+#input:hover #type_email {
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+  border-color: #4066A5;
+}
+#input:hover path {
+  fill: #4066A5;
+  opacity: 1;
+}
+#submit {
+  position: absolute;
+  width: 24px;
+  height: 14px;
+  top: 23px;
+  left: 37%;
+  opacity: 0;
+  z-index: 1;
+}
+#input_base {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+}
+#email_line {
+  position: absolute;
+  border-left: 4px solid #4066A5;
+  height: 60px;
+  z-index: 1;
+}
+#arrow {
+  position: absolute;
+  width: 24px;
+  height: 14px;
+  top: 23px;
+  left: 37%;
+  color: #131821;
+  opacity: 1;
+}
+
+#type_email {
+  position: absolute;
+  width: 36.5%;
+  height: 24px;
+  top: 0px;
+  left: 0px;
+  padding: 18px 49px 18px 19px;
+  border: 1px solid #E3E3E4;
+}
+#type_email:focus {
+  box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+:focus {
+  outline: none;
+}
+/*CheckBox*/
+
+
+
+.terms input[type="checkbox"] {
+  visibility: hidden;
+}
+label {
+  cursor: pointer;
+}
+.terms input[type="checkbox"] + label:before {
+  border: 1px solid #333;
+  content: "\00a0";
+  display: inline-block;
+  font: 16px/1em sans-serif;
+  height: 16px;
+  margin: 0 .25em 0 0;
+  padding: 0;
+  vertical-align: top;
+  width: 16px;
+}
+.terms input[type="checkbox"]:checked + label:before {
+  background: #fff;
+  color: #333;
+  content: "\2713";
+  text-align: center;
+}
+.terms input[type="checkbox"]:checked + label:after {
+  font-weight: bold;
+}
+
+.terms input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+/*no*/
+
+#err {
+    position: absolute;
+    top: 85%;
+    left: 1vw;
+    color: red;
+  }
+.terms{
+position: absolute;
+top: 70%;
+left: 8%;
+color:#6A707B;
+width: 53%;
+height: 28px;
+font-family: 'Libre Baskerville', serif;
+font-style: normal;
+font-weight: normal;
+padding-top: 70px;
+
+font-size: 1vw;
+line-height: 1.8vw;
+
+}
+.terms a{
+    color: black;
+    
+}
+.terms input{
+     width: 14px;
+     height: 11px;
+    
+}
+.terms input:checked ~ .checkmark {
+  background-color: black;
+}
+
+.line{
+position: absolute;
+top: 75%;
+left: 8%;
+width: 20%;
+height: 1px;
+background: #E3E3E4;
+border-width:0;
+
+
+}
+/*
+ 
+cricle icons part 
+
+
+
+*/
+.icons{
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    display: flex;
+    
+   
+    
+}
+
+
+.circle{
+  width: 3vw;
+  height: 5vh;
+  text-decoration: none;
+  margin: 10px;
+  position: relative;
+  font-size: 15px;
+  border-radius: 50%;
+  opacity: 1;
+  
+  
+}
+.circle::before{
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 1;
+}
+.circle::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 0;
+  border: 1px solid #6A707B;
+  opacity: 1;
+}
+
+
+
+.s4 .fab{
+  color: #6A707B;
+  
+}
+.s4 .circle::after{
+  
+  transition: 0.4s;
+}
+.s4 .circle:hover::after{
+  transform: scale(1.3);
+  opacity: 0;
+}
+
+/*facebook*/
+.s4 .fb:hover{
+  color: white;
+  background-color: #4267B2;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.s4 .fb:focus{
+ background-color: #2F4A80;
+ color: white;
+}
+/*instagram*/
+.s4 .insta:hover{
+  color: white;
+  background-color: #C13584;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.s4 .insta:focus{
+ background-color: #8F2762;
+ color: white;
+ box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+/*youtube*/
+
+.s4 .twt:hover{
+  color: white;
+  background-color: #1DA1F2;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.s4 .twt:focus{
+ background-color: #177FBF;;
+ color: white;
+ box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+/*youtube*/
+.s4 .utube:hover{
+  color: white;
+  background-color: #FF0000;
+  box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.s4 .utube:focus{
+ background-color: #CC0000;
+ color: white;
+ box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+
+
+
+
+
+
+
+/*image part*/
+.right{
+    width: 100vw;
+     height: 100%;
+    background-image: url('../src/mage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+/* Mobile Queries */
+
+@media  (max-width: 480px) {
+    
+body{
+    background-image: url('../src/mage.jpeg');
+    margin: 0px;
+	  padding: 0px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+ }
+ 
+
+ .navbar{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 66px;
+     background-color: white;
+} 
+.navbar img{
+    margin-left: 30px;
+    width: 25px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.navbar ul{
+  
+  display: inline;
+}
+.navbar ul li{
+   
+   display: inline;
+   
+   
+
+}
+
+.navbar ul li a{
+  
+  color: grey;
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+
+}
+.navbar .union{
+  margin-left: 5vw;
+}
+.about{
+  
+  margin-left: 15%;
+}
+.how{
+  
+  margin-left: 5%;
+}
+.contact{
+  
+  margin-left: 5%;
+  
+}
+.pine{
+  display:none;
+}
+
+.left{
+    position: absolute;
+    top: 35%;
+    left: 20px;
+    right: 20px;
+    width: 335px;
+    height: 371px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    
+}
+.right{
+    display: none;
+
+
+    
+}
+
+.left h1{
+    position: absolute; 
+    top:21px ; 
+    width: 295px;
+    height: 34px;
+   
+  
+   font-family: 'Newsreader', serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 24px;
+   color:#131821;
+   }
+   .left p{
+       position: absolute;
+       top: 50px;
+   width:300px;
+   height: 56px;
+   margin-left: 5vw;
+   font-family: 'Libre Baskerville', serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   color: #6A707B;
+   }
+   
+
+
+   /*input field*/
+
+   #input {
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    top: 150px;
+    left: 10px;
+  }
+  #input:hover #type_email {
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+    border-color: #4066A5;
+  }
+  #input:hover path {
+    fill: #4066A5;
+    opacity: 1;
+  }
+  #submit {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    top: 23px;
+    left: 256px;
+    opacity: 0;
+    z-index: 1;
+  }
+  #input_base {
+    position: absolute;
+    width: 295px;
+    height: 60px;
+  }
+  #email_line {
+    position: absolute;
+    border-left: 4px solid #4066A5;
+    height: 60px;
+    z-index: 1;
+  }
+  #arrow {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    top: 23px;
+    left: 256px;
+    color: #131821;
+    opacity: 1;
+  }
+  input {
+    padding: 0px;
+    border: 0px;
+    font-size: 16px;
+    color: #6A707B;
+  }
+  #type_email {
+    position: absolute;
+    width: 230px;
+    height: 24px;
+    top: 0px;
+    left: 0px;
+    padding: 18px 49px 18px 19px;
+    border: 1px solid #E3E3E4;
+  }
+  #type_email:focus {
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+  }
+  :focus {
+    outline: none;
+  }
+  #checkbox-wrapper {
+    position: absolute;
+    left: 10px;
+    top: 80px;
+  }
+  .checkmark {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-color: #FFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  #check:checked ~ .checkmark {
+    background-color: #4066A5;
+    border-color: #4066A5;
+  }
+  .checkmark::after {
+    content: url(../ic_checkmark.svg);
+    position: absolute;
+    left: 6px;
+    top: 4px;
+  }
+  #tos {
+    position: absolute;
+    width: 254px;
+    height: 28px;
+    top: 480px;
+    left: 81px;
+  }
+  
+    
+    
+
+/*TERMS PART*/
+      .terms{
+        position: absolute;
+        top: 60%;
+        left: 4%;
+        right: 4%;
+        color:#6A707B;
+        width: 254px;
+        height: 28px;
+        font-family: 'Libre Baskerville', serif;
+        font-style: normal;
+        font-weight: normal;
+        
+        font-size: 16px;
+        line-height: 28px;
+        
+        }
+        .terms a{
+            color: black;
+            
+        }
+        .terms input{
+             width: 20px;
+             height: 20px;
+            
+        }
+        input[type="checkbox"]:focus{
+            background: crimson;
+        }
+        
+
+        .line{
+            position: absolute;
+            top: 75%;
+            left: 2%;
+            right: 2%;
+            width: 295px;
+            height: 1px;
+            background: #E3E3E4;
+            border-width:0;
+            
+            
+            }   
+
+/*ICONS*/
+
+.icons{
+                position: absolute;
+                top: 80%;
+                left: 53px;
+                display: flex;
+               
+                
+            }
+
+
+ .circle{
+        width: 9vw;
+        height: 6vh;
+         text-decoration: none;
+         margin: 1vw;
+         position: relative;
+         font-size: 15px;
+         border-radius: 50%;
+         
+            }
+
+            
+                
+            
+
+
+
+  }
