@@ -29,5 +29,6 @@ IT is also possible to host this website live for me on WWW  but it wil take som
 NOTE: 
 My motivation is to learn. your feedback is so much important for me on my code and related things. If there is something i have to learn please let me know.
 I wanted to make it with MVC PHP OOPS That was not part of the task but i understand the MVC and few other design patterns of oops.
+I will create the pagination and soon merge it here. 
 
 
