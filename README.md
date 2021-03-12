@@ -12,7 +12,7 @@ lampp->htdocs->(copy the project folder)
 
 After the steup you need to setup your database.
 you have file name (subscribers.sql) inside the project folder (the repo you downloaded).
-Go to the phpmyadmin in your browser when it open you need to created new table with name of subscribers you should
+Go to the phpmyadmin in your browser when it open you need to create new table with name of subscribers you should
 check if there is any other table name before like this in your database. (if there you need to change the name ).
 Find the option of import in top navigation click on that and drag the subscriber.sql file and it will import the database i created.
 There should be no password of database. 
