@@ -1,6 +1,7 @@
 # MAGEBIT
 MAGEBIT EXAM FOR JUNIOR WEB DEVELOPER.
 
+PLEASE MAKE SURE YOUR INTERNET IS WORKING WHILE YOU WORK WITH THIS PROJECT.
 
 For running this project you have to download this repository on your system.
 Secondly you should have downloaded the xampp which helps you keep up with apache and php mysql.
