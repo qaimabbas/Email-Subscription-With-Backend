@@ -13,8 +13,10 @@
 
          if($this->conn->connect_error){
              die("connection failed".$this->conn->connect_error);
-         }
+         }else{
          return $this->conn;
+         }
+         
      }
 
      
