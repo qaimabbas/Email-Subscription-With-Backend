@@ -70,37 +70,9 @@ class Show extends Database{
                 $this->query.= " ORDER BY email ";
             }
                
-           }else{
-            
-               
-
-            
-
            }
-           
-
-
           
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         
        }else{
         $this->query='select * from subscribers';       
        }
