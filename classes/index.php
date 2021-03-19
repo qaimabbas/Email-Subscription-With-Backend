@@ -56,7 +56,7 @@ include_once 'addsubscriber.php';
                               <p id="err" ><?php echo $obj->error; ?></p>
                               <div class="terms" id="terms">
                              
-                    <input type="checkbox" id="check" name="status" value="on" class="check" > 
+                    <input type="checkbox" id="check" name="status" value="on" style="margin-left:20px; width:20px; height:20px; visibility: visible;"  > 
                     <label for="check" >I agree to <a href="#">terms of service</a></label>
                     
                     
