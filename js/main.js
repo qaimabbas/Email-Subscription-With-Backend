@@ -3,6 +3,9 @@
   var email=document.myform.email.value;  
   var x=email.indexOf("@");  
   var y=email.lastIndexOf("."); 
+     
+  document.getElementById("frame").innerHTML = ' <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe> ';
+  document.getElementById("myform").target="dummyframe";
   
   if (email == "" || email == null) {
     document.getElementById("err").innerHTML = "Email address is required";
