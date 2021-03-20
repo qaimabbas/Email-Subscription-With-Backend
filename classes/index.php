@@ -50,8 +50,9 @@ include_once 'addsubscriber.php';
                     <div id="input">
                       <div class="vl" id="email_line"></div> 
                       <div id="input_base">
-                      <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-                          <form name="myform" id="myform" method="post" action="" onsubmit=" return validate();" target="dummyframe"   >
+                          
+                      <div class="frame" id="frame"></div>
+                          <form name="myform" id="myform" method="post" action="" onsubmit=" return validate();"    >
                               <input type="text" id="type_email" name="email" placeholder="Type your email address here...">
                               <p id="err" ><?php echo $obj->error; ?></p>
                               <div class="terms" id="terms">
